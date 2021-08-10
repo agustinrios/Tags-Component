@@ -3,7 +3,7 @@ import Tagify from '@yaireo/tagify'
 
 @Component({
     tag: 'zt-input-tags',
-    styleUrl: 'app-tags.scss',
+    styleUrl: 'app-tags.css',
     shadow: true
 })
 
@@ -54,13 +54,13 @@ export class tags {
     
     render() {
         return [
-            <div class="">
+            <div>
                 <input 
                     onClick={() => this.Tags}
-                    name={'tags-outside'} 
                     class='tagify--outside' 
                     placeholder='write some tags'
-                    value={this.valueState} 
+                    name='tags-outside' 
+                    value={this.valueState}
                 />
             </div>
         ];
