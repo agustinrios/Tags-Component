@@ -3,7 +3,7 @@ import Tagify from '@yaireo/tagify'
 
 @Component({
     tag: 'zt-input-tags',
-    styleUrl: 'app-tags.css',
+    styleUrl: 'app-tags.scss',
     shadow: true
 })
 
